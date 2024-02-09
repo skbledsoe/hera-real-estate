@@ -3,37 +3,59 @@ import './styles/Contact.css';
 function Contact() {
   return (
     <div className="contact">
-      <h2>Get in Touch with Hera's Dream Dwellings</h2>
-      <div>
+      <h2 className='title'>Get in Touch with Hera's Dream Dwellings</h2>
+      
+      <div className='info'>
         <h3>Address:</h3>
         <p>123 Dream Home Street,
           Cityville, State, Zip Code</p>
       </div>
-      <div>
+
+      <div className='info'>
         <h3>Phone:</h3>
         <p>Main Office: +1 (123) 456-7890</p>
         <p>Sales Inquiries: +1 (987) 654-3210</p>
       </div>
-      <div>
+
+      <div className='info'>
         <h3>Email:</h3>
         <p>General Inquiries: info@herasdreamdwellings.com</p>
         <p>Sales Department: sales@herasdreamdwellings.com</p>
         <p>Support: support@herasdreamdwellings.com</p>
       </div>
-      <div>
+
+      <div className='info'>
         <h3>Office Hours:</h3>
         <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
         <p>Saturday: 10:00 AM - 4:00 PM</p>
         <p>Sunday: Closed</p>
       </div>
-      <div>
+
+      <div className='info'>
         <h3>Connect with Us:</h3>
-        <a href="www.facebook.com/heracrown">Facebook</a>
-        <a href="www.youtube.com/heracrown">Facebook</a>
-        <a href="www.instagram.com/heracrown">Facebook</a>
-        <a href="www.tiktok.com/heracrown">Facebook</a>
+        <p>
+          <a href="www.facebook.com/heracrown">
+            Facebook
+          </a>
+        </p>
+        <p>
+          <a href="www.youtube.com/heracrown">
+            Youtube
+          </a>
+        </p>
+        <p>
+          <a href="www.instagram.com/heracrown">
+            Instagram
+          </a>
+        </p>
+        <p>
+          <a href="www.tiktok.com/heracrown">
+            TikTok
+          </a>
+        </p>
       </div>
-      <div>
+
+      <div className='info faq'>
         <h3>Frequently Asked Questions:</h3>
         <h4>1. What types of properties do you deal with?</h4>
         <p>At Hera's Dream Dwellings, we specialize in a wide range of properties, including residential homes, apartments, condominiums, commercial spaces, and land.</p>

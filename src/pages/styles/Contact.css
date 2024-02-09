@@ -1,3 +1,40 @@
 .contact {
-  margin-left: 10px;
+  margin: 20px;
+}
+
+.title {
+  color: #253b44;
+  text-shadow: 2px 1px 1px #253b4456;
+  font-size: 5px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 30px 5px 40px 5px;
+  text-align: center;
+}
+
+.info {
+  position: relative;
+  border: solid 2px #253b44c2;
+  border-radius: 10px;
+  box-shadow: none;
+  background: #fff;
+  margin: 15px 5px;
+  padding: 0px 15px;
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: #253b4459 0px 10px 36px 0px, #8080800f 0px 0px 0px 1px;
+}
+.info h3 {
+  color: #253b44;
+  text-shadow: 2px 1px 1px #253b4456;
+}
+
+.info p a {
+  color: #253b44;
+}
+
+.faq h4 {
+  color: #253b44c9;
 }
