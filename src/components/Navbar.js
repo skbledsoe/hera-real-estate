@@ -18,7 +18,7 @@ function Navbar() {
             <Link to='/contact'>Contact</Link>
           </li>
           <li>
-            <Link to='/properties'>Properties</Link>
+            <Link to='/properties'>Lots & Properties</Link>
           </li>
         </ul>
       </nav>
